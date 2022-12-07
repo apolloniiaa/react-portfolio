@@ -17,10 +17,10 @@ const HeroPage = () => {
             frontend developer
           </h3>
           <p className='text-md py-5 leading-8 text-primary md:text-xl max-w-lg mx-auto dark:text-slate-400'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro est
-            excepturi expedita optio a omnis sint, tempora saepe distinctio
-            deleniti voluptatem ducimus maxime consequuntur ut eaque totam vero
-            laudantium corporis!
+            Welcome! My name is Apollónia. I'm a career changer Frontend
+            developer with a high level of enthusiasm and attention.I have
+            started learning web development 1,5 years ago, but serious journey
+            has began 6 months ago.
           </p>
         </div>
         <div className='relative mx-auto bg-gradient-to-r from-fifth to-primary rounded-full w-48 h-48 mb-10 overflow-hidden '>

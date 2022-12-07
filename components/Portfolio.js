@@ -91,7 +91,10 @@ const Portfolio = () => {
             My works
           </h3>
           <p className='py-6  dark:text-slate-300'>
-            Check out some of my work right here
+            Check out some of my work right here. Some of them are rather small,
+            some of them are bigger, some of them are responsive, some are not,
+            but this section will keep growing as I do more projects, and learn
+            more technologies!
           </p>
         </div>
 
