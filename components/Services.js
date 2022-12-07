@@ -7,7 +7,7 @@ import consulting from '../public/consulting.png';
 import css from '../public/css.png';
 import html from '../public/html.png';
 import javascript from '../public/javascript.png';
-import nextjs from '../public/nextjs.png';
+import logo from '../public/logo.png';
 import react from '../public/react.png';
 import sass from '../public/scss.png';
 import tailwind from '../public/tailwind.png';
@@ -66,12 +66,30 @@ const Services = () => {
       id: 10,
       src: illustrator,
       title: 'Illustrator',
+      style: 'shadow-yellow-200',
+    },
+    {
+      id: 12,
+      src: photoshop,
+      title: 'Photoshop',
+      style: 'shadow-sky-900',
+    },
+    {
+      id: 11,
+      src: logo,
+      title: 'NextJS',
+      style: 'shadow-orange-700',
+    },
+    {
+      id: 12,
+      src: logo,
+      title: 'GSAP',
       style: 'shadow-orange-700',
     },
   ];
   return (
     <div name='services'>
-      <section>
+      <section className='mb-64  md:mb-0 '>
         <div>
           <h3 className='text-3xl py-1  dark:text-fifth'>Services I offer </h3>
           <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-300'>
@@ -146,8 +164,8 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <div name='experience' className=' w-full h-screen my-20 '>
-        <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
+      <div name='experience' className=' w-full md:h-screen my-20 '>
+        <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full md:h-auto text-red-50'>
           <div>
             <p className='text-4xl font-bold border-b-4 dark:text-fifth dark:border-fifth border-gray-500 p-2 inline '>
               Experience

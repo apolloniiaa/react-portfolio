@@ -16,7 +16,7 @@ const HeroPage = () => {
             I am| <span className='text-fifth'> a creative</span> <br />{' '}
             frontend developer
           </h3>
-          <p className='text-md py-5 leading-8 text-primary md:text-xl max-w-lg mx-auto dark:text-slate-400'>
+          <p className='text-md py-5 leading-8 text-primary md:text-xl max-w-lg mx-auto dark:text-slate-400 mb-7'>
             Welcome! My name is Apollónia. I'm a career changer Frontend
             developer with a high level of enthusiasm and attention.I have
             started learning web development 1,5 years ago, but serious journey
