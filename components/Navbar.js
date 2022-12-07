@@ -77,13 +77,13 @@ const Navbar = () => {
 
         <div
           onClick={() => setnav(!nav)}
-          className='cursor-pointer pr-4  text-fifth md:hidden z-20'
+          className='cursor-pointer pr-4  text-fifth md:hidden z-20 '
         >
           {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
         </div>
 
         {nav && (
-          <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-primary text-red-100 z-10 dark:bg-secondary '>
+          <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-primary text-red-100 z-10 dark:bg-secondary  '>
             {links.map(({ id, link }) => (
               <li
                 key={id}
