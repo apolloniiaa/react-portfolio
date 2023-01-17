@@ -18,7 +18,7 @@ module.exports = {
         theritary: '#fab2cb14',
         fourth: '#0e0008',
         fifth: '#9ee7dd1f',
-        card: '#9b95c20d',
+        card: '#9b95c226',
         background: ' #03a9f40f',
         textLight: '#2a275ccc;',
         linksLight: '#fff6b6db',

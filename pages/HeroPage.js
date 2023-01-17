@@ -7,28 +7,22 @@ import Image from 'next/image';
 const HeroPage = () => {
   return (
     <div name='home'>
-      <section className='px-10 md:px-20 lg:px-40'>
+      <section className='px-px md:px-20 lg:px-40'>
         <div className='text-center'>
-          <h2 className='text-xl font-burtons py-2 font-medium md:text-5xl  text-secondary  dark:text-green-100 pt-7'>
-            Apollónia Sz.
-          </h2>
-          <h3 className='text-2xl py-2 md:text-3xl  text-textLight dark:text-slate-400 '>
-            I am |{' '}
-            <span className='text-subtitle dark:text-textDark'>
-              {' '}
-              a creative
-            </span>{' '}
-            <br /> frontend developer
+          <h3 className='text-2xl py-2 pt-8 md:text-3xl  text-textLight dark:text-slate-400 '>
+            I am a creative
+            <span className='text-subtitle font-burtons dark:text-textDark '>
+              <br /> front-end developer...
+            </span>
           </h3>
           <p className='text-md py-5 leading-8 text-textLight md:text-xl max-w-lg mx-auto dark:text-slate-400 mb-7'>
-            Welcome to my portfolio website! I am a career changer who recently
-            transitioned into the field of frontend development. With a
-            background in fashion designer & stylist, I bring a unique
-            perspective and set of skills to the table. I am passionate about
-            creating visually appealing and user-friendly websites, and I am
-            constantly learning and growing as a developer. On this site, you'll
-            find examples of my work and my journey as a frontend developer.
-            Thank you for visiting! 🎉
+            a career changer who recently transitioned into the field of
+            frontend development. With a background in fashion designer &
+            stylist, I bring a unique perspective and set of skills to the
+            table. I am passionate about creating visually appealing and
+            user-friendly websites, and I am constantly learning and growing as
+            a developer. On this site, you'll find examples of my work and my
+            journey as a frontend developer. Thank you for visiting! 🎉
           </p>
         </div>
         <div className='relative mx-auto  rounded-full w-48 h-48 mb-10 overflow-hidden '>

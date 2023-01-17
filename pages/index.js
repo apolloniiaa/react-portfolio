@@ -18,7 +18,7 @@ export default function Home() {
 
       <Navbar />
 
-      <main className=' bg-background px-10 md:px-20 lg:px-40 dark:bg-bgDark'>
+      <main className=' bg-background px-4 md:px-20 lg:px-40 dark:bg-bgDark'>
         <HeroPage />
         <SocialLinks />
         <Portfolio />

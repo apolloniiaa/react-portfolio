@@ -3,15 +3,11 @@ const Contact = () => {
     <div name='contact' className='w-full   bp-4 text-white'>
       <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
         <div className='pb-8'>
-          <p className='text-4xl  text-center text-textLight font-burtons flex justify-center items-center dark:text-gray-200'>
-            Thanks for taking the time to fill out this form. Your input is
-            important to me, and I will respond to your inquiry as soon as
-            possible.
+          <p className='text-4xl  mt-20 text-center text-textLight font-burtons flex justify-center items-center dark:text-gray-200'>
+            Your input is important to me,
           </p>
-          <p className='pt-8  font-burtons text-center text-textLight flex justify-center items-center dark:text-gray-200 '>
-            Hit the "Send message" button below <br />
-            and let's start the journey of creating something
-            <br /> amazing together!
+          <p className='pt-3  font-burtons text-center text-textLight flex justify-center items-center dark:text-gray-200 '>
+            and I will respond to your inquiry as soon as possible.
           </p>
         </div>
 

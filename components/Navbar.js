@@ -77,17 +77,17 @@ const Navbar = () => {
 
         <div
           onClick={() => setnav(!nav)}
-          className='text-secondary cursor-pointer pr-4  md:hidden z-20  '
+          className='text-linksLight cursor-pointer pr-4  md:hidden z-20   dark:text-secondary  '
         >
           {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
         </div>
 
         {nav && (
-          <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen dark:   text-secondary z-10 dark:bg-textDark '>
+          <ul className='flex flex-col justify-center items-center absolute top-0 text-linksLight left-0 w-full h-screen bg-bgDark dark:text-secondary z-10 dark:bg-textDark '>
             {links.map(({ id, link }) => (
               <li
                 key={id}
-                className='px-4 cursor-pointer capitalize py-6   text-secondary text-4xl hover:scale-105  duration-200 dark:textDark'
+                className='px-4 cursor-pointer capitalize py-6    text-4xl hover:scale-105  duration-200 dark:bg-textDark'
               >
                 <Link
                   onClick={() => setnav(!nav)}

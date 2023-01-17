@@ -78,12 +78,12 @@ const Services = () => {
   ];
   return (
     <div name='services'>
-      <section className='mb-64  md:mb-0  max-w-screen-lg mx-auto p-4'>
+      <section className=' md:mb-0  max-w-screen-lg mx-auto p-4 text-center sm:text-left'>
         <div>
           <h3 className='text-3xl py-1 text-primary dark:text-slate-300'>
             Services I offer{' '}
           </h3>
-          <p className='text-md py-2 leading-8  text-textLight dark:text-slate-300'>
+          <p className='text-md py-2 leading-8  text-textLight dark:text-slate-300 text-center sm:text-left'>
             I offer a wide range of services to help bring your ideas to life.
             My expertise includes creating visually appealing and responsive
             websites using HTML, CSS and JavaScript. I also offer skills in
@@ -164,8 +164,8 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <div name='experience' className=' w-full md:h-screen mt-20 '>
-        <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full md:h-auto  text-textLight'>
+      <div name='experience' className=' w-full   '>
+        <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center text-center sm:text-left w-full h-full md:h-auto  text-textLight'>
           <div>
             <p className='text-4xl font-bold border-b-4  border-gray-500 p-2 inline dark:border-green-100 dark:text-slate-300'>
               Experience
@@ -179,7 +179,7 @@ const Services = () => {
             {techs.map(({ id, src, title, style }) => (
               <div
                 key={id}
-                className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg text-linksLight bg-fifth`}
+                className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg bg-portfolioCard text-linksLight  dark:bg-fifth`}
               >
                 <Image src={src} alt='photo' className='w-20 mx-auto' />
                 <p className='mt-4'>{title}</p>

@@ -93,7 +93,7 @@ const Portfolio = () => {
   return (
     <div name='portfolio' className=' text-textLight  w-full '>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col jutify-center w-full h-full'>
-        <div className=' pb-8'>
+        <div className=' pb-8  text-center sm:text-left'>
           <h3 className='text-4xl  font-burtons  inline border-b-4  text-textLight border-textLight dark:border-green-100 dark:text-slate-300'>
             My works
           </h3>
@@ -113,7 +113,7 @@ const Portfolio = () => {
           {portfolios.map(({ id, src, demo, code }) => (
             <div
               key={id}
-              className='shadow-md shadow-textLight  rounded-lg text-portfolioCardText dark:bg-fifth  dark:shadow-subtitle'
+              className='shadow-md shadow-textLight  bg-portfolioCard rounded-lg text-portfolioCardText dark:bg-fifth  dark:shadow-subtitle'
             >
               <Image
                 src={src}
