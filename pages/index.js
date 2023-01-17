@@ -18,7 +18,7 @@ export default function Home() {
 
       <Navbar />
 
-      <main className=' bg-gradient-to-b from-theritary to-primary px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
+      <main className=' bg-background px-10 md:px-20 lg:px-40 dark:bg-bgDark'>
         <HeroPage />
         <SocialLinks />
         <Portfolio />

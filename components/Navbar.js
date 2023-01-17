@@ -50,9 +50,9 @@ const Navbar = () => {
   ];
   return (
     <div>
-      <div className=' bg-primary dark:bg-fourth flex justify-between items-center w-full h-20 text-white  px-4 '>
+      <div className=' bg-primary  flex justify-between items-center w-full h-20 text-white  px-4 dark:bg-textDark '>
         <div>
-          <h1 className='text-xl font-burtons ml-2 text-red-50  dark:text-fifth'>
+          <h1 className='text-xl font-burtons ml-2 text-linksLight  dark:text-secondary '>
             apollonia | dev
           </h1>
         </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className='px-4 cursor-pointer font-burtons  text-red-100 cap hover:scale-105 hover:text-red-200 duration-200 hover:dark:text-fifth'
+              className='px-4 cursor-pointer font-burtons  text-linksLight cap hover:scale-105 duration-200 dark:text-secondary'
             >
               <Link to={link} smooth duration={500}>
                 {link}{' '}
@@ -71,23 +71,23 @@ const Navbar = () => {
 
           <BsFillMoonStarsFill
             onClick={handleThemeSwitch}
-            className='text-red-100  dark:text-fifth cursor-pointer text-xl'
+            className=' text-linksLight  cursor-pointer text-xl dark:text-secondary'
           />
         </ul>
 
         <div
           onClick={() => setnav(!nav)}
-          className='cursor-pointer pr-4  text-fifth md:hidden z-20 '
+          className='text-secondary cursor-pointer pr-4  md:hidden z-20  '
         >
           {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
         </div>
 
         {nav && (
-          <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-primary text-red-100 z-10 dark:bg-secondary  '>
+          <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen dark:   text-secondary z-10 dark:bg-textDark '>
             {links.map(({ id, link }) => (
               <li
                 key={id}
-                className='px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 hover:text-red-200 duration-200 hover:dark:text-fifth'
+                className='px-4 cursor-pointer capitalize py-6   text-secondary text-4xl hover:scale-105  duration-200 dark:textDark'
               >
                 <Link
                   onClick={() => setnav(!nav)}

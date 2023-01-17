@@ -84,17 +84,21 @@ const Portfolio = () => {
     },
   ];
   return (
-    <div name='portfolio' className=' text-primary  w-full '>
+    <div name='portfolio' className=' text-textLight  w-full '>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col jutify-center w-full h-full'>
         <div className=' pb-8'>
-          <h3 className='text-4xl  font-burtons  inline border-b-4  text-primary border-primary dark:border-fifth dark:text-slate-300'>
+          <h3 className='text-4xl  font-burtons  inline border-b-4  text-textLight border- dark:border-green-100 dark:text-slate-300'>
             My works
           </h3>
           <p className='py-6  dark:text-slate-300'>
-            Check out some of my work right here. Some of them are rather small,
-            some of them are bigger, some of them are responsive, some are not,
-            but this section will keep growing as I do more projects, and learn
-            more technologies!
+            Please take a moment to check out my latest work. Some of them are
+            rather small, some of them are bigger, some of them are responsive,
+            some are not, but this section will keep growing as I do more
+            projects, and learn more technologies! I am particularly excited
+            about 'planItPerfect', as it showcases my new skills in NextJs. I am
+            always pushing myself to improve and create new and innovative
+            designs, and I believe these projects reflect that. I hope you enjoy
+            browsing through my work as much as I enjoyed creating it.
           </p>
         </div>
 
@@ -102,7 +106,7 @@ const Portfolio = () => {
           {portfolios.map(({ id, src, demo, code }) => (
             <div
               key={id}
-              className='shadow-md shadow-primary dark:shadow-fifth rounded-lg'
+              className='shadow-md shadow-textLight text-portfolioCardText bg-portfolioCard dark:shadow-textDark rounded-lg'
             >
               <Image
                 src={src}
@@ -116,14 +120,14 @@ const Portfolio = () => {
                 <a
                   href={demo}
                   target='blank'
-                  className='w-1/2 px-6 py-3 m-4 duration-200 cursor-pointer  dark:text-slate-300'
+                  className='w-1/2 px-6 py-3 m-4 duration-200 cursor-pointer   dark:text-textDark'
                 >
                   Demo
                 </a>
                 <a
                   href={code}
                   target='blank'
-                  className='w-1/2 px-6 py-3 m-4 duration-200 cursor-pointer  dark:text-slate-500 '
+                  className='w-1/2 px-6 py-3 m-4 duration-200 cursor-pointer  dark:text-textDark '
                 >
                   Code
                 </a>

@@ -9,21 +9,29 @@ const HeroPage = () => {
     <div name='home'>
       <section className='px-10 md:px-20 lg:px-40'>
         <div className='text-center'>
-          <h2 className='text-xl font-burtons py-2 font-medium md:text-5xl  text-secondary  dark:text-fifth pt-7'>
+          <h2 className='text-xl font-burtons py-2 font-medium md:text-5xl  text-secondary  dark:text-green-100 pt-7'>
             Apollónia Sz.
           </h2>
-          <h3 className='text-2xl py-2 md:text-3xl  text-primary dark:text-slate-400 '>
-            I am| <span className='text-fifth'> a creative</span> <br />{' '}
-            frontend developer
+          <h3 className='text-2xl py-2 md:text-3xl  text-textLight dark:text-slate-400 '>
+            I am |{' '}
+            <span className='text-subtitle dark:text-textDark'>
+              {' '}
+              a creative
+            </span>{' '}
+            <br /> frontend developer
           </h3>
-          <p className='text-md py-5 leading-8 text-primary md:text-xl max-w-lg mx-auto dark:text-slate-400 mb-7'>
-            Welcome! My name is Apollónia. I'm a career changer Frontend
-            developer with a high level of enthusiasm and attention.I have
-            started learning web development 1,5 years ago, but serious journey
-            has began 6 months ago.
+          <p className='text-md py-5 leading-8 text-textLight md:text-xl max-w-lg mx-auto dark:text-slate-400 mb-7'>
+            Welcome to my portfolio website! I am a career changer who recently
+            transitioned into the field of frontend development. With a
+            background in fashion designer & stylist, I bring a unique
+            perspective and set of skills to the table. I am passionate about
+            creating visually appealing and user-friendly websites, and I am
+            constantly learning and growing as a developer. On this site, you'll
+            find examples of my work and my journey as a frontend developer.
+            Thank you for visiting! 🎉
           </p>
         </div>
-        <div className='relative mx-auto bg-gradient-to-r from-fifth to-primary rounded-full w-48 h-48 mb-10 overflow-hidden '>
+        <div className='relative mx-auto  rounded-full w-48 h-48 mb-10 overflow-hidden '>
           <Image
             src={avatar}
             layout='fill'
@@ -35,14 +43,16 @@ const HeroPage = () => {
               33vw'
           />
         </div>
-        <div className='text-3xl flex align-center justify-center gap-16 py-3 text-primary dark:text-fifth'>
+        <div className='text-3xl flex align-center justify-center gap-16 py-3 text-textLight  dark:text-textDark'>
           <Link
             to='portfolio'
             smooth
             duration={500}
             className=' group text-3xl font-burtons color-white w-fit md:px-6 md:py-3 my-2 flex items-center rounded-md  cursor-pointer'
           >
-            <p className=' text-base  md:text-3xl'> P o r t f o l i o </p>
+            <p className=' text-base  md:text-3xl  dark:text-textDark'>
+              L O O K _ A R O U N D{' '}
+            </p>
             <span className=' group-hover:rotate-90 duration-300 '>
               <AiOutlineArrowRight size={15} className='ml-1' />
             </span>
