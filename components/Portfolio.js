@@ -12,6 +12,7 @@ import web8 from '../public/web8.jpg';
 import web9 from '../public/web9.jpg';
 import web10 from '../public/web10.jpg';
 import web11 from '../public/web11.jpg';
+import web12 from '../public/web12.jpg';
 
 const Portfolio = () => {
   const portfolios = [
@@ -82,12 +83,18 @@ const Portfolio = () => {
       demo: 'https://apolloniiaa.github.io/travelBlog/',
       code: ' https://github.com/apolloniiaa/travelBlog',
     },
+    {
+      id: 12,
+      src: web12,
+      demo: 'https://plan-it-perfect-next-js-mw2g.vercel.app/',
+      code: ' https://github.com/apolloniiaa/planItPerfect-next-js',
+    },
   ];
   return (
     <div name='portfolio' className=' text-textLight  w-full '>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col jutify-center w-full h-full'>
         <div className=' pb-8'>
-          <h3 className='text-4xl  font-burtons  inline border-b-4  text-textLight border- dark:border-green-100 dark:text-slate-300'>
+          <h3 className='text-4xl  font-burtons  inline border-b-4  text-textLight border-textLight dark:border-green-100 dark:text-slate-300'>
             My works
           </h3>
           <p className='py-6  dark:text-slate-300'>
@@ -106,7 +113,7 @@ const Portfolio = () => {
           {portfolios.map(({ id, src, demo, code }) => (
             <div
               key={id}
-              className='shadow-md shadow-textLight text-portfolioCardText bg-portfolioCard dark:shadow-textDark rounded-lg'
+              className='shadow-md shadow-textLight  rounded-lg text-portfolioCardText dark:bg-fifth  dark:shadow-subtitle'
             >
               <Image
                 src={src}
@@ -120,14 +127,14 @@ const Portfolio = () => {
                 <a
                   href={demo}
                   target='blank'
-                  className='w-1/2 px-6 py-3 m-4 duration-200 cursor-pointer   dark:text-textDark'
+                  className='w-1/2 px-6 py-3 m-4 duration-200 cursor-pointer   dark:text-slate-300'
                 >
                   Demo
                 </a>
                 <a
                   href={code}
                   target='blank'
-                  className='w-1/2 px-6 py-3 m-4 duration-200 cursor-pointer  dark:text-textDark '
+                  className='w-1/2 px-6 py-3 m-4 duration-200 cursor-pointer   dark:text-slate-300'
                 >
                   Code
                 </a>

@@ -25,22 +25,22 @@ const Contact = () => {
               type='text'
               name='name'
               placeholder='Enter your name'
-              className='p-2 bg-transparent border-2  border-card rounded-md text-subtitle  focus:outline-none dark: border-green-100 dark:text-gray-300'
+              className='p-2 bg-transparent border-2  border-card rounded-md text-subtitle  focus:outline-none dark:border-green-100 dark:text-gray-300'
             />
             <input
               type='text'
               name='email'
               placeholder='Enter your email'
-              className='my-4 p-2 bg-transparent border-2 border-card rounded-md text-subtitle focus:outline-none  dark: border-green-100 dark:text-gray-300'
+              className='my-4 p-2 bg-transparent border-2 border-card rounded-md text-subtitle focus:outline-none  dark:border-green-100 dark:text-gray-300'
             />
             <textarea
               name='message'
               placeholder='Enter your message'
               rows='10'
-              className='p-2 bg-transparent border-2 rounded-md border-card text-subtitle  focus:outline-none   dark: border-green-100 dark:text-gray-300'
+              className='p-2 bg-transparent border-2 rounded-md border-card text-subtitle  focus:outline-none   dark:border-green-100 dark:text-gray-300'
             ></textarea>
 
-            <button className='text-textLight font-burtons px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 dark:text-textDark'>
+            <button className='text-textLight font-burtons   px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 dark:text-textDark dark:border-2 dark:border-green-100'>
               Send message
             </button>
           </form>
